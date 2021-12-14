@@ -7,7 +7,7 @@
         "ci": "yarn install --ignore-scripts --frozen-lockfile --silent --non-interactive",
         "lint": "yarn test:lint",
         "release": "np",
-        "start": "vercel dev",
+        "start": "node server/server.js",
         "version": "yarn build"
     },
     "repository": {
