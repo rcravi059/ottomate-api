@@ -58,5 +58,5 @@
         "@pika/plugin-build-types"
       ]
     ]
-  },
+  }
 }
