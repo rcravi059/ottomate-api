@@ -5,7 +5,7 @@
     "main": "server.js",
     "scripts": {
         "start": "nodemon — experimental-modules server.js",
-        "build": "nodemon — experimental-modules server.js",
+        "build": "node server.js",
     },
     "repository": {
         "type": "git",
