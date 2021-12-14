@@ -10,9 +10,6 @@ const resolvers = require('./src/resolver');
 async function startApolloServer(typeDefs, resolvers) {
     const app = express();
     app.use('/uploads', express.static('src/images'));
-	if (process.env.NODE_ENV === "production") {
-		app.use(express.static("build"));
-	}
     const httpServer = http.createServer(app);
     const server = new ApolloServer({
         typeDefs,
