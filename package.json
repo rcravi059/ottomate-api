@@ -5,7 +5,7 @@
     "main": "server.js",
     "scripts": {
         "ci": "yarn install --ignore-scripts --frozen-lockfile --silent --non-interactive",
-        "build": "pika build",
+        "build": "node server.js",
         "build:docs": "fiddly",
         "lint": "yarn test:lint",
         "release": "np",
