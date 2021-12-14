@@ -10,12 +10,6 @@
         "lint": "yarn test:lint",
         "release": "np",
         "start": "vercel dev",
-        "test": "yarn test:lint && yarn test:typecheck && yarn test:unit",
-        "test:lint": "eslint \"./src/**/*.{j,t}s?(x)\"",
-        "test:typecheck": "tsc --noEmit",
-        "test:unit": "jest",
-        "test:watch": "yarn test:unit --watch",
-        "typecheck": "yarn test:typecheck",
         "version": "yarn build"
     },
     "repository": {
