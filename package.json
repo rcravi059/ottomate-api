@@ -38,5 +38,25 @@
         "graphql-yoga": "^1.18.3",
         "lodash": "^4.17.21",
         "nodemon": "^2.0.4"
-    }
+    },
+    "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg",
+        {
+          "exclude": [
+            "*.gql",
+            "__mocks__/**/*",
+            "__test__/**/*"
+          ]
+        }
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]
+    ]
+  },
 }
