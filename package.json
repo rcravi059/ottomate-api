@@ -9,7 +9,7 @@
     "scripts": {
         "release": "np",
         "postinstall": "npm run build",
-        "start": "node server.js",
+        "start": "node server.js"
     },
     "repository": {
         "type": "git",
