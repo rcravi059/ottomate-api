@@ -22,6 +22,7 @@ async function startApolloServer(typeDefs, resolvers) {
     console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`);
     console.log(">>>>>>>>",process.env.PORT || 5000);
     console.log(">>>>>>>>",process.env.ApolloServer);
+    console.log(">>>>>>>>",process.env.server);
 }
 
 startApolloServer(typeDefs, resolvers);
