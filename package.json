@@ -3,6 +3,9 @@
     "version": "1.0.1",
     "description": "",
     "main": "server.js",
+     "engines": {
+        "node": "12.22.1"
+      },
     "scripts": {
         "ci": "yarn install --ignore-scripts --frozen-lockfile --silent --non-interactive",
         "lint": "yarn test:lint",
